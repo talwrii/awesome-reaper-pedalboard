@@ -2,7 +2,7 @@
 Notes on how to set up a pedal board using a midi controller using reaper.
 
 ## Samples files
-My configured pedal board can be found in [this file](effects.RPP)
+My configured pedal board can be found in [this file](pedalboard.RPP)
 
 Caveat - this is a work in progress. I have only used tihs with a midi keyboard at the moment, and I am yet to collect my midi pedal board from storage.
 
