@@ -1,2 +1,21 @@
 # awesome-reaper-pedalboard
 Notes on how to set up a pedal board using a midi controller
+
+## Motivation
+
+Pedal board are big, expensive, hard to transport, have complicated power requirements and at times not very flexible. Avoiding some of these features would be a good thing, digital audio audio workstations can turn this sort of sound effect into code and so remove some of these physical costs.
+
+On the other hand, pedal boards don't involve programming - rather you have a limited number of settings that you can tweak, and which to some degree can be "performed" or experimented in in real time with feedback, like a musical instrument.
+
+This project seeks a middleground by producing a "pedal board" for a guitar, or another instrument, using a digital workspace (in this case reaper), but controlling with midi controllers (knobs and sliders on an external device). This still gives 
+
+
+## Why Reaper
+
+Reaper is not open source, this means that it's use requires you to think about money and licensing, there is a risk that the company behind it go out of business or don't care about a particular feature that is important to you. On the other hand, it is well documented by a community, extensible and scriptable and affordable compared to other tools and free to use for an evaluation period. Life is full of compromises, and perhaps the use of reaper - until such time as ardour catches up is an acceptable one. 
+
+# Alternatives and prior work 
+
+There are some open source projects that act as amp sims sometimes combined with pedal board. Some posts about rakarack mention the posibility of midi automation.
+
+[rakarrack](https://rakarrack.sourceforge.net/) and guitarix are two exapmles.
