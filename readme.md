@@ -7,7 +7,6 @@ My configured pedal board can be found in [this file](pedalboard.RPP)
 Caveat - this is a work in progress. I have only used tihs with a midi keyboard at the moment, and I am yet to collect my midi pedal board from storage.
 
 ## Motivation
-
 Pedal board are big, expensive, hard to transport, have complicated power requirements and at times not very flexible. Avoiding some of these features would be a good thing, digital audio audio workstations can turn this sort of sound effect into code and so remove some of these physical costs.
 
 On the other hand, pedal boards don't involve programming - rather you have a limited number of settings that you can tweak, and which to some degree can be "performed" or experimented in in real time with feedback, like a musical instrument.
@@ -23,31 +22,32 @@ I also, know that reaper supports "midi automation" where midi input can be used
  
 
 ## Alternatives and prior work 
-
 There are some open source projects that act as amp sims sometimes combined with pedal board. Some posts about rakarack mention the posibility of midi automation.
 Ardour is a full open-source digital audo workspace. I am not familiar with it it's effects plguins
 
-
 * [rakarrack](https://rakarrack.sourceforge.net/) and guitarix are two examples.
-
 
 ## How to produce an amp sim and an effects pedal
 Pedal board can be quite personal so you will likely want to tweak your settings, and perhaps even the equipment you use. But perhaps you would like to start by using the settings layed out here.
 
 At a high-level, this works by having a sequence of tracks representing different pedals. Midi controls are mapped to parameters in these pedals representing the dials on the front of a guitar a pedal. We can however put all these dials in one place and place these on a desk. A midi footswitch is used to switch between these effects.
 
-
-
 ## Equipment
-
 ### Midi knobs
 I used the [subzero mini midi controller](https://www.amazon.co.uk/SubZero-MINICONTROL-MIDI-Controller/dp/B079RL4S9F/ref=cm_cr_arp_d_product_top?ie=UTF8) to vary parameters of the board - which I bought second hand on ebay (I suspect the board is no longer being manufactured).
 
 This board is perhaps more reminiscent of a track mixer with its sliders and nobs, it is however cheap and cheap means replaceable and small. A more appropriate control might have pairs dials for as is common on pedals. However if might be natural for pedals to have an "intensity setting" and a "control setting".
 
+### A linux laptop
+These settings will likely work fine with a mac or linux machine. I am using a thinkpad X1 machine. You'll note that a dedicatd machine is probably more expensive than a reasonable amplifier. Headphone amplifiers are very cheap and you could likely buy 5 pedals for a similar price. Cheaper laptops can be used.
 
+People have [run Reaper on single board computers such as raspberry pi](https://www.youtube.com/watch?v=ASszi2F495E).
 
+### A digital about converter
+I am using [The Behringer UCG102](https://www.behringer.com/behringer/product?modelCode=P0198) which has the advantage of being cheap and small.
 
+## Windows plugins
+Reaper provides a number of reasonable plugins. However there is an entire ecosystem of third-party plugins. Some of these can be found on [plugins4free](https://plugins4free.com/). An issue is that plugins are compiled for particular operating system. 
 
-
-
+The plugin adaptor carla can be used to add windows plugins to a linux machine. 
+Install carla with `sudo apt install carla-vst`, run `dpkg -L carla-vst`, then add this to your [vst path](https://www.youtube.com/watch?v=CByHPXk3Flw).
