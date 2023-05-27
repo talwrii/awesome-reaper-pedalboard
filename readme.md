@@ -38,16 +38,14 @@ I used the [subzero mini midi controller](https://www.amazon.co.uk/SubZero-MINIC
 
 This board is perhaps more reminiscent of a track mixer with its sliders and nobs, it is however cheap and cheap means replaceable and small. A more appropriate control might have pairs dials for as is common on pedals. However if might be natural for pedals to have an "intensity setting" and a "control setting".
 
-### A linux laptop
-These settings will likely work fine with a mac or linux machine. I am using a thinkpad X1 machine. You'll note that a dedicatd machine is probably more expensive than a reasonable amplifier. Headphone amplifiers are very cheap and you could likely buy 5 pedals for a similar price. Cheaper laptops can be used.
+### An old mac laptop
+I originally used a linux laptop run but wanted my set up to support a digital piano sound and found it difficult to find VST plugins for linux. There were tools which promised to convert windows VST plugins to linux ones or provide bridges but they were not trivial to use, so I elected to use an old mac machine.
 
-People have [run Reaper on single board computers such as raspberry pi](https://www.youtube.com/watch?v=ASszi2F495E).
+You'll note that a dedicatd machine is probably more expensive than a reasonable amplifier. Headphone amplifiers are very cheap and you could likely buy 5 or six pedals for a similar price. People have however [run Reaper on single board computers such as raspberry pi](https://www.youtube.com/watch?v=ASszi2F495E) and a linux machine is more compact.
 
-### A digital about converter
+### A digital audio converter (for guitar) DAC
 I am using [The Behringer UCG102](https://www.behringer.com/behringer/product?modelCode=P0198) which has the advantage of being cheap and small.
 
-## Windows plugins
-Reaper provides a number of reasonable plugins. However there is an entire ecosystem of third-party plugins. Some of these can be found on [plugins4free](https://plugins4free.com/). An issue is that plugins are compiled for particular operating system. 
+### An electric piano (if you want to play piano)
 
-The plugin adaptor carla can be used to add windows plugins to a linux machine. 
-Install carla with `sudo apt install carla-vst`, run `dpkg -L carla-vst`, then add this to your [vst path](https://www.youtube.com/watch?v=CByHPXk3Flw).
+I bought a yamaha p-45, which I understand from youtube videos is one of the cheapest "electric pianos" that you can buy. Electric piano's have key weightings designed to simulate a piano.
