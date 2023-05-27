@@ -14,6 +14,9 @@ On the other hand, pedal boards don't involve programming - rather you have a li
 This project seeks a middleground by producing a "pedal board" for a guitar, or another instrument, using a digital workspace (in this case reaper), but controlling with midi controllers (knobs and sliders on an external device). This still gives 
 
 
+### Not to do 
+The aim here is construct a tool that can be played without interacting generally with a computer.
+
 ## Why Reaper
 
 Reaper is not open source, this means that it's use requires you to think about money and licensing, there is a risk that the company behind it go out of business or don't care about a particular feature that is important to you. On the other hand, it is well documented by a community, extensible and scriptable and affordable compared to other tools and free to use for an evaluation period. Life is full of compromises, and perhaps the use of reaper - until such time as ardour catches up is an acceptable one. 
@@ -38,6 +41,8 @@ I used the [subzero mini midi controller](https://www.amazon.co.uk/SubZero-MINIC
 
 This board is perhaps more reminiscent of a track mixer with its sliders and nobs, it is however cheap and cheap means replaceable and small. A more appropriate control might have pairs dials for as is common on pedals. However if might be natural for pedals to have an "intensity setting" and a "control setting".
 
+Faderfox offered some nice midi controllers that mostly consist of knobs, but these are relatively expensive. I also saw some options on etsy which were more affordable, though I have had problems with receiving broken electronics on etsy before and the products may not be easily replaceable.
+
 ### An old mac laptop
 I originally used a linux laptop run but wanted my set up to support a digital piano sound and found it difficult to find VST plugins for linux. There were tools which promised to convert windows VST plugins to linux ones or provide bridges but they were not trivial to use, so I elected to use an old mac machine.
 
@@ -49,3 +54,22 @@ I am using [The Behringer UCG102](https://www.behringer.com/behringer/product?mo
 ### An electric piano (if you want to play piano)
 
 I bought a yamaha p-45, which I understand from youtube videos is one of the cheapest "electric pianos" that you can buy. Electric piano's have key weightings designed to simulate a piano.
+
+
+# Features
+
+The most important feature for making playing "fun" is a looper plugin.
+
+
+
+# Plugins I used
+
+
+https://www.meldaproduction.com/downloads Third party free plugins. I used the metronome
+https://audiolatry.gumroad.com/l/grandpianoxxl -- A free properietary  sampled piano midi instruments
+
+
+
+# Reading
+
+https://plugins4free.com A large collection of free VST plugins that are compatible with reaper (depending on your underlying architecture).
