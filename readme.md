@@ -56,20 +56,22 @@ I am using [The Behringer UCG102](https://www.behringer.com/behringer/product?mo
 I bought a yamaha p-45, which I understand from youtube videos is one of the cheapest "electric pianos" that you can buy. Electric piano's have key weightings designed to simulate a piano.
 
 
+### Ways of having less hardware
+
+My motivation is to create a dedicated set up using midi controllers to "get away from hardware" and avoid too much iteraction with a computer. However, others may wish to spend less money, or own fewer things. There are some approaches here.
+
+The midi controller could be replaced with [Touch OSC](https://www.youtube.com/watch?v=hmuhoDx70QM) which allows an Android or iOS phone or tablet to control reaper via midi events. The desktop component of touch osc runs on windows, mac or linux.
+
+I am using a dedicated laptop to run reaper, a raspberry pi can reaper and would reduce costs and the size of the set up. Alternatively a "part time" laptop could be used.
+
 # Features
 
 The most important feature for making playing "fun" is a looper plugin.
 
-
-
 # Plugins I used
-
-
 https://www.meldaproduction.com/downloads Third party free plugins. I used the metronome
-https://audiolatry.gumroad.com/l/grandpianoxxl -- A free properietary  sampled piano midi instruments
-
-
+https://audiolatry.gumroad.com/l/grandpianoxxl -- A free properitary  sampled piano midi instruments
 
 # Reading
-
 https://plugins4free.com A large collection of free VST plugins that are compatible with reaper (depending on your underlying architecture).
+https://github.com/webprofusion/OpenAudio A large list of open source VST plugins and other tools.
