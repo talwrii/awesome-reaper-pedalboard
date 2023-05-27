@@ -73,5 +73,6 @@ https://www.meldaproduction.com/downloads Third party free plugins. I used the m
 https://audiolatry.gumroad.com/l/grandpianoxxl -- A free properitary  sampled piano midi instruments
 
 # Reading
-https://plugins4free.com A large collection of free VST plugins that are compatible with reaper (depending on your underlying architecture).
-https://github.com/webprofusion/OpenAudio A large list of open source VST plugins and other tools.
+* https://plugins4free.com A large collection of free VST plugins that are compatible with reaper (depending on your underlying architecture).
+* https://github.com/webprofusion/OpenAudio A large list of open source VST plugins and other tools.
+* https://tonehunt.org/ A large collection of amp sims for use with the neural amp
