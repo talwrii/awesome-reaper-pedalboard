@@ -76,3 +76,9 @@ https://audiolatry.gumroad.com/l/grandpianoxxl -- A free properitary  sampled pi
 * https://plugins4free.com A large collection of free VST plugins that are compatible with reaper (depending on your underlying architecture).
 * https://github.com/webprofusion/OpenAudio A large list of open source VST plugins and other tools.
 * https://tonehunt.org/ A large collection of amp sims for use with the neural amp
+
+# Trouble shooting Reaper
+
+## My midi control has stopped working
+
+Try unplugging your midi controller, going to preferences, right clicking on the midi device and forgetting it, then plugging it back in again and enabling it. I had to do this once.
